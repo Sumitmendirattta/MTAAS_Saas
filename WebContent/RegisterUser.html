@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MTAAS </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/ccustom.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    
+    
+      <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    
+        <!-- Custom styling plus plugins -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/icheck/flat/green.css" rel="stylesheet">
+
+    <style type="text/css">
+            body {
+    color: #333;
+    background: #333;
+    line-height: 1.5;
+}
+
+    </style>
+    
+
+
+   
+
+    
+    
+   
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-cloud"></i> <span>MTAAS</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                   
+                    <div class="profile">
+                        <div class="p_c">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Sumit Mendiratta</h2>
+                        </div>
+                    </div>
+            
+
+                    <br />
+
+                   
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3>Welcome</h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="index.html">Dashboard</a>
+                                        </li>
+                                        <li><a href="index2.html">Dashboard2</a>
+                                        </li>
+                                        <li><a href="index3.html">Dashboard3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                             
+                               
+                                <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="tables.html">Tables</a>
+                                        </li>
+                                        <li><a href="tables_dynamic.html">Table Dynamic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a><i class="fa fa-laptop"></i> Page <span class="label label-success pull-right">Page</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                       
+
+                    </div>
+                    
+                    
+                   
+                </div>
+            </div>
+
+            
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav nav-r">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">Sumit Mendiratta
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li><a href="javascript:;"><span><i class="fa fa-user pull-right"></i>  Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                           
+                                            <span><i class="fa fa-cog pull-right"></i>Settings</span>
+                                        </a>
+                                    </li>
+                                   
+                                    <li><a href="#"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle i_num" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled m__lis animated fadeInDown" role="menu">
+                                    <li>
+                                        <a>
+                                           <span class="">
+                                                 Menu 1 
+                                         </span>
+                                        </a>
+                                    </li>
+                                  
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+           
+            <div class="right_col" role="main">
+            
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                        
+                                <div class="x_content">
+
+                                    <form class="form-horizontal form-label-left" novalidate method="post" action="RegUser.jsp">
+
+                                        <span class="section">Register User</span>
+
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">First Name <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="fname" class="form-control col-md-7 col-xs-12" data-validate-length-range="3"  name="fname" placeholder="both name(s) e.g Jon " required="required" type="text">
+                                            </div>
+                                        </div>
+                                         <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="name">Last Name <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="lname" class="form-control col-md-7 col-xs-12" data-validate-length-range="3"  name="lname" placeholder="both name(s) e.g Doe" required="required" type="text">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="email">Email <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="email" id="email" name="email" required="required" class="form-control col-md-7 col-xs-12">
+                                            </div>
+                                        </div>
+                                       
+                                            <div class="item form-group">
+                                            <label for="password" class="control-label col-md-3">Password</label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input id="pwd" type="password" name="pwd" data-validate-length-range="6" class="form-control col-md-7 col-xs-12" required="required">
+                                            </div>
+                                        </div>
+  
+         
+                                          <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">User Type</label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <select class="form-control" required="required" id="usertype" name="usertype">
+                                                  
+                                                    <option>Developer</option>
+                                                    <option>Tester</option>
+                                                    
+                                                </select>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                            <div class="form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Gender</label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <div id="gender" class="btn-group" data-toggle="buttons" >
+                                                    <label class="btn btn-default" data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                        <input type="radio" name="gender" value="male" > &nbsp; Male &nbsp;
+                                                    </label>
+                                                    <label class="btn btn-default " data-toggle-class="btn-primary" data-toggle-passive-class="btn-default">
+                                                        <input type="radio" name="gender" value="female" > Female
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="number">Mobile <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="tel" id="mobile" name="mobile" required="required"  class="form-control col-md-7 col-xs-12">
+                                            </div>
+                                        </div>
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="website">Website URL <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <input type="url" id="weburl" name="weburl" required="required" placeholder="www.website.com" class="form-control col-md-7 col-xs-12">
+                                            </div>
+                                        </div>
+                                                                           
+                                                                        
+                                        <div class="item form-group">
+                                            <label class="control-label col-md-3 col-sm-3 col-xs-12" for="textarea">Address <span class="required">*</span>
+                                            </label>
+                                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                                <textarea id="address" name="address" class="form-control col-md-7 col-xs-12"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="ln_solid"></div>
+                                        <div class="form-group">
+                                            <div class="col-md-6 col-md-offset-3">
+                                                <button type="submit" class="btn btn-primary">Cancel</button>
+                                                <button id="send" type="submit" class="btn btn-success">Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <script type="text/javascript">
+                        $(document).ready(function () {
+                        	
+                            $('#birthday').daterangepicker({
+                                singleDatePicker: true,
+                                calender_style: "picker_4"
+                            }, function (start, end, label) {
+                                console.log(start.toISOString(), end.toISOString(), label);
+                            });
+                        });
+                    </script>
+
+                    </div>
+
+                </div>
+             
+ </div>
+
+                
+
+                </div>
+
+                <footer>
+                    <div class="">
+                        <p class="pull-right">Page Footer<a>MTAAS</a>
+                        </p>
+                    </div>
+                    <div class="clearfix"></div>
+                </footer>
+               
+            </div>
+           
+
+        </div>
+
+    </div>
+    
+         <!-- daterangepicker -->
+        <script type="text/javascript" src="js/moment.min2.js"></script>
+        <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+
+   
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script src="js/custom.js"></script>
+    
+       <!-- form validation -->
+    <script src="js/validator/validator.js"></script>
+    <script>
+        // initialize the validator function
+        validator.message['date'] = 'not a real date';
+
+        // validate a field on "blur" event, a 'select' on 'change' event & a '.reuired' classed multifield on 'keyup':
+        $('form')
+            .on('blur', 'input[required], input.optional, select.required', validator.checkField)
+            .on('change', 'select.required', validator.checkField)
+            .on('keypress', 'input[required][pattern]', validator.keypress);
+
+        $('.multi.required')
+            .on('keyup blur', 'input', function () {
+                validator.checkField.apply($(this).siblings().last()[0]);
+            });
+
+        // bind the validation to the form submit event
+        //$('#send').click('submit');//.prop('disabled', true);
+
+        $('form').submit(function (e) {
+            e.preventDefault();
+            var submit = true;
+            // evaluate the form using generic validaing
+            if (!validator.checkAll($(this))) {
+                submit = false;
+            }
+
+            if (submit)
+                this.submit();
+            return false;
+        });
+
+        /* FOR DEMO ONLY */
+        $('#vfields').change(function () {
+            $('form').toggleClass('mode2');
+        }).prop('checked', false);
+
+        $('#alerts').change(function () {
+            validator.defaults.alerts = (this.checked) ? false : true;
+            if (this.checked)
+                $('form .alert').remove();
+        }).prop('checked', false);
+    </script>
+
+    
+   
+</body>
+
+</html>

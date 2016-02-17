@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MTAAS </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/ccustom.css" rel="stylesheet">
+    <script src="js/jquery.min.js"></script>
+    
+    
+      <!-- Bootstrap core CSS -->
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="fonts/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    
+        <!-- Custom styling plus plugins -->
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/icheck/flat/green.css" rel="stylesheet">
+
+    <style type="text/css">
+            body {
+    color: #333;
+    background: #333;
+    line-height: 1.5;
+}
+
+    </style>
+    
+
+
+   
+
+    
+    
+   
+
+</head>
+
+
+<body class="nav-md">
+
+    <div class="container body">
+
+
+        <div class="main_container">
+
+            <div class="col-md-3 left_col">
+                <div class="left_col scroll-view">
+
+                    <div class="navbar nav_title" style="border: 0;">
+                        <a href="index.html" class="site_title"><i class="fa fa-cloud"></i> <span>MTAAS</span></a>
+                    </div>
+                    <div class="clearfix"></div>
+
+                   
+                    <div class="profile">
+                        <div class="p_c">
+                            <img src="images/img.jpg" alt="..." class="img-circle profile_img">
+                        </div>
+                        <div class="profile_info">
+                            <span>Welcome,</span>
+                            <h2>Sumit Mendiratta</h2>
+                        </div>
+                    </div>
+            
+
+                    <br />
+
+                   
+                    <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+
+                        <div class="menu_section">
+                            <h3>Welcome</h3>
+                            <ul class="nav side-menu">
+                                <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="index.html">Dashboard</a>
+                                        </li>
+                                        <li><a href="index2.html">Dashboard2</a>
+                                        </li>
+                                        <li><a href="index3.html">Dashboard3</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                             
+                               
+                                <li><a><i class="fa fa-table"></i> Tables <span class="fa fa-chevron-down"></span></a>
+                                    <ul class="nav child_menu" style="display: none">
+                                        <li><a href="tables.html">Tables</a>
+                                        </li>
+                                        <li><a href="tables_dynamic.html">Table Dynamic</a>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li><a><i class="fa fa-laptop"></i> Page <span class="label label-success pull-right">Page</span></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                       
+
+                    </div>
+                    
+                    
+                   
+                </div>
+            </div>
+
+            
+            <div class="top_nav">
+
+                <div class="nav_menu">
+                    <nav class="" role="navigation">
+                        <div class="nav toggle">
+                            <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+                        </div>
+
+                        <ul class="nav navbar-nav nav-r">
+                            <li class="">
+                                <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                    <img src="images/img.jpg" alt="">Sumit Mendiratta
+                                    <span class=" fa fa-angle-down"></span>
+                                </a>
+                                <ul class="dropdown-menu dropdown-usermenu animated fadeInDown pull-right">
+                                    <li><a href="javascript:;"><span><i class="fa fa-user pull-right"></i>  Profile</a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:;">
+                                           
+                                            <span><i class="fa fa-cog pull-right"></i>Settings</span>
+                                        </a>
+                                    </li>
+                                   
+                                    <li><a href="#"><i class="fa fa-sign-out pull-right"></i> Log Out</a>
+                                    </li>
+                                </ul>
+                            </li>
+
+                            <li role="presentation" class="dropdown">
+                                <a href="javascript:;" class="dropdown-toggle i_num" data-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa fa-envelope-o"></i>
+                                    
+                                </a>
+                                <ul id="menu1" class="dropdown-menu list-unstyled m__lis animated fadeInDown" role="menu">
+                                    <li>
+                                        <a>
+                                           <span class="">
+                                                 Menu 1 
+                                         </span>
+                                        </a>
+                                    </li>
+                                  
+                                </ul>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+
+            </div>
+
+            <!-- page content -->
+            <div class="right_col" role="main">
+
+                <div class="">
+                    <div class="page-title">
+                        <div class="title_left">
+                            <h3>User Profile</h3>
+                        </div>
+
+                      
+                    </div>
+                    <div class="clearfix"></div>
+
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="x_panel">
+                                <div class="x_title">
+                                    <h2>User Report <small>Activity report</small></h2>
+                                    <ul class="nav navbar-right panel_toolbox">
+                                        <li><a href="#"><i class="fa fa-chevron-up"></i></a>
+                                        </li>
+                                       
+                                        <li><a href="#"><i class="fa fa-close"></i></a>
+                                        </li>
+                                    </ul>
+                                    <div class="clearfix"></div>
+                                </div>
+                                <div class="x_content">
+
+                                    <div class="col-md-3 col-sm-3 col-xs-12 profile_left">
+
+                                        <div class="profile_img">
+
+                                          
+
+                                        </div>
+                                        <h3>Samuel Doe</h3>
+
+                                        <ul class="list-unstyled user_data">
+                                            <li><i class="fa fa-map-marker user-profile-icon"></i> San Francisco, California, USA
+                                            </li>
+
+                                            <li>
+                                                <i class="fa fa-briefcase user-profile-icon"></i> Software Engineer
+                                            </li>
+
+                                            <li class="m-top-xs">
+                                                <i class="fa fa-external-link user-profile-icon"></i>
+                                                <a href="http://www.kimlabs.com/profile/" target="_blank">www.kimlabs.com</a>
+                                            </li>
+                                        </ul>
+
+                                        <a class="btn btn-success"><i class="fa fa-edit m-right-xs"></i>Edit Profile</a>
+                                        <br />
+
+                                        <!-- start skills -->
+                                        <h4>Skills</h4>
+                                        <ul class="list-unstyled user_data">
+                                            <li>
+                                                <p>Web Applications</p>
+                                                <div class="progress progress_sm">
+                                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>Website Design</p>
+                                                <div class="progress progress_sm">
+                                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="70"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>Automation & Testing</p>
+                                                <div class="progress progress_sm">
+                                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="30"></div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <p>UI / UX</p>
+                                                <div class="progress progress_sm">
+                                                    <div class="progress-bar bg-green" role="progressbar" data-transitiongoal="50"></div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <!-- end of skills -->
+
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-xs-12">
+
+                                        <div class="profile_title">
+                                            <div class="col-md-6">
+                                                <h2>User Activity Report</h2>
+                                            </div>
+                                        
+                                        </div>
+                                   
+
+                                        <div class="" role="tabpanel" data-example-id="togglable-tabs">
+                                            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                                               
+                                                <li role="presentation" class=""><a href="#tab_content2" role="tab" id="profile-tab" data-toggle="tab" aria-expanded="false">Projects Worked on</a>
+                                                </li>
+                                                <li role="presentation" class=""><a href="#tab_content3" role="tab" id="profile-tab2" data-toggle="tab" aria-expanded="false">Profile</a>
+                                                </li>
+                                            </ul>
+                                            <div id="myTabContent" class="tab-content">
+                                                <div role="tabpanel" class="tab-pane fade active in" id="tab_content1" aria-labelledby="home-tab">
+
+                                                    <!-- start recent activity -->
+                                                    <ul class="messages">
+                                                        <li>
+                                                            <img src="images/tester-icon.png" class="avatar" alt="Avatar">
+                                                            <div class="message_date">
+                                                                <h3 class="date text-info">24</h3>
+                                                                <p class="month">May</p>
+                                                            </div>
+                                                            <div class="message_wrapper">
+                                                                <h4 class="heading">Desmond Davison</h4>
+                                                                <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                                                                <br />
+                                                                <p class="url">
+                                                                    <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                                                                    <a href="#"><i class="fa fa-paperclip"></i> User Acceptance Test.doc </a>
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="images/tester-icon.png" class="avatar" alt="Avatar">
+                                                            <div class="message_date">
+                                                                <h3 class="date text-error">21</h3>
+                                                                <p class="month">May</p>
+                                                            </div>
+                                                            <div class="message_wrapper">
+                                                                <h4 class="heading">Brian Michaels</h4>
+                                                                <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                                                                <br />
+                                                                <p class="url">
+                                                                    <span class="fs1" aria-hidden="true" data-icon=""></span>
+                                                                    <a href="#" data-original-title="">Download</a>
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="images/img.jpg" class="avatar" alt="Avatar">
+                                                            <div class="message_date">
+                                                                <h3 class="date text-info">24</h3>
+                                                                <p class="month">May</p>
+                                                            </div>
+                                                            <div class="message_wrapper">
+                                                                <h4 class="heading">Desmond Davison</h4>
+                                                                <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                                                                <br />
+                                                                <p class="url">
+                                                                    <span class="fs1 text-info" aria-hidden="true" data-icon=""></span>
+                                                                    <a href="#"><i class="fa fa-paperclip"></i> User Acceptance Test.doc </a>
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <img src="images/img.jpg" class="avatar" alt="Avatar">
+                                                            <div class="message_date">
+                                                                <h3 class="date text-error">21</h3>
+                                                                <p class="month">May</p>
+                                                            </div>
+                                                            <div class="message_wrapper">
+                                                                <h4 class="heading">Brian Michaels</h4>
+                                                                <blockquote class="message">Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua butcher retro keffiyeh dreamcatcher synth.</blockquote>
+                                                                <br />
+                                                                <p class="url">
+                                                                    <span class="fs1" aria-hidden="true" data-icon=""></span>
+                                                                    <a href="#" data-original-title="">Download</a>
+                                                                </p>
+                                                            </div>
+                                                        </li>
+
+                                                    </ul>
+                                                    <!-- end recent activity -->
+
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="tab_content2" aria-labelledby="profile-tab">
+
+                                                    <!-- start user projects -->
+                                                    <table class="data table table-striped no-margin">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>#</th>
+                                                                <th>Project Name</th>
+                                                                <th>Client Company</th>
+                                                                <th class="hidden-phone">Hours Spent</th>
+                                                                <th>Contribution</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>1</td>
+                                                                <td>New Company Takeover Review</td>
+                                                                <td>Deveint Inc</td>
+                                                                <td class="hidden-phone">18</td>
+                                                                <td class="vertical-align-mid">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar progress-bar-success" data-transitiongoal="35"></div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>2</td>
+                                                                <td>New Partner Contracts Consultanci</td>
+                                                                <td>Deveint Inc</td>
+                                                                <td class="hidden-phone">13</td>
+                                                                <td class="vertical-align-mid">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar progress-bar-danger" data-transitiongoal="15"></div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>3</td>
+                                                                <td>Partners and Inverstors report</td>
+                                                                <td>Deveint Inc</td>
+                                                                <td class="hidden-phone">30</td>
+                                                                <td class="vertical-align-mid">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar progress-bar-success" data-transitiongoal="45"></div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>4</td>
+                                                                <td>New Company Takeover Review</td>
+                                                                <td>Deveint Inc</td>
+                                                                <td class="hidden-phone">28</td>
+                                                                <td class="vertical-align-mid">
+                                                                    <div class="progress">
+                                                                        <div class="progress-bar progress-bar-success" data-transitiongoal="75"></div>
+                                                                    </div>
+                                                                </td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <!-- end user projects -->
+
+                                                </div>
+                                                <div role="tabpanel" class="tab-pane fade" id="tab_content3" aria-labelledby="profile-tab">
+                                                    <p>xxFood truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- footer content -->
+               
+                <!-- /footer content -->
+
+            </div>
+            <!-- /page content -->
+        </div>
+
+    </div>
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+        <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+        </ul>
+        <div class="clearfix"></div>
+        <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- chart js -->
+    <script src="js/chartjs/chart.min.js"></script>
+    <!-- bootstrap progress js -->
+    <script src="js/progressbar/bootstrap-progressbar.min.js"></script>
+    <script src="js/nicescroll/jquery.nicescroll.min.js"></script>
+    <!-- icheck -->
+    <script src="js/icheck/icheck.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <!-- image cropping -->
+    <script src="js/cropping/cropper.min.js"></script>
+    <script src="js/cropping/main.js"></script>
+
+    
+    <!-- daterangepicker -->
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript" src="js/datepicker/daterangepicker.js"></script>
+    <!-- moris js -->
+    <script src="js/moris/raphael-min.js"></script>
+    <script src="js/moris/morris.js"></script>
+    <script>
+        $(function () {
+            var day_data = [
+                {
+                    "period": "Jan",
+                    "Hours worked": 80
+                },
+                {
+                    "period": "Feb",
+                    "Hours worked": 125
+                },
+                {
+                    "period": "Mar",
+                    "Hours worked": 176
+                },
+                {
+                    "period": "Apr",
+                    "Hours worked": 224
+                },
+                {
+                    "period": "May",
+                    "Hours worked": 265
+                },
+                {
+                    "period": "Jun",
+                    "Hours worked": 314
+                },
+                {
+                    "period": "Jul",
+                    "Hours worked": 347
+                },
+                {
+                    "period": "Aug",
+                    "Hours worked": 287
+                },
+                {
+                    "period": "Sep",
+                    "Hours worked": 240
+                },
+                {
+                    "period": "Oct",
+                    "Hours worked": 211
+                }
+    ];
+            Morris.Bar({
+                element: 'graph_bar',
+                data: day_data,
+                xkey: 'period',
+                hideHover: 'auto',
+                barColors: ['#26B99A', '#34495E', '#ACADAC', '#3498DB'],
+                ykeys: ['Hours worked', 'sorned'],
+                labels: ['Hours worked', 'SORN'],
+                xLabelAngle: 60
+            });
+        });
+    </script>
+    <!-- datepicker -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            var cb = function (start, end, label) {
+                console.log(start.toISOString(), end.toISOString(), label);
+                $('#reportrange span').html(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                //alert("Callback has fired: [" + start.format('MMMM D, YYYY') + " to " + end.format('MMMM D, YYYY') + ", label = " + label + "]");
+            }
+
+            var optionSet1 = {
+                startDate: moment().subtract(29, 'days'),
+                endDate: moment(),
+                minDate: '01/01/2012',
+                maxDate: '12/31/2015',
+                dateLimit: {
+                    days: 60
+                },
+                showDropdowns: true,
+                showWeekNumbers: true,
+                timePicker: false,
+                timePickerIncrement: 1,
+                timePicker12Hour: true,
+                ranges: {
+                    'Today': [moment(), moment()],
+                    'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+                    'Last 7 Days': [moment().subtract(6, 'days'), moment()],
+                    'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                    'This Month': [moment().startOf('month'), moment().endOf('month')],
+                    'Last Month': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')]
+                },
+                opens: 'left',
+                buttonClasses: ['btn btn-default'],
+                applyClass: 'btn-small btn-primary',
+                cancelClass: 'btn-small',
+                format: 'MM/DD/YYYY',
+                separator: ' to ',
+                locale: {
+                    applyLabel: 'Submit',
+                    cancelLabel: 'Clear',
+                    fromLabel: 'From',
+                    toLabel: 'To',
+                    customRangeLabel: 'Custom',
+                    daysOfWeek: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
+                    monthNames: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                    firstDay: 1
+                }
+            };
+            $('#reportrange span').html(moment().subtract(29, 'days').format('MMMM D, YYYY') + ' - ' + moment().format('MMMM D, YYYY'));
+            $('#reportrange').daterangepicker(optionSet1, cb);
+            $('#reportrange').on('show.daterangepicker', function () {
+                console.log("show event fired");
+            });
+            $('#reportrange').on('hide.daterangepicker', function () {
+                console.log("hide event fired");
+            });
+            $('#reportrange').on('apply.daterangepicker', function (ev, picker) {
+                console.log("apply event fired, start/end dates are " + picker.startDate.format('MMMM D, YYYY') + " to " + picker.endDate.format('MMMM D, YYYY'));
+            });
+            $('#reportrange').on('cancel.daterangepicker', function (ev, picker) {
+                console.log("cancel event fired");
+            });
+            $('#options1').click(function () {
+                $('#reportrange').data('daterangepicker').setOptions(optionSet1, cb);
+            });
+            $('#options2').click(function () {
+                $('#reportrange').data('daterangepicker').setOptions(optionSet2, cb);
+            });
+            $('#destroy').click(function () {
+                $('#reportrange').data('daterangepicker').remove();
+            });
+        });
+    </script>
+    <!-- /datepicker -->
+</body>
+
+</html>
